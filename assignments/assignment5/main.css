@@ -1,0 +1,77 @@
+body {
+    background-color: #e1a1a1; 
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.forum-container {
+    background-color: #d8d0c5;  
+    border: 3px solid #333333;
+    border-radius: 40px 20px 45px 25px; 
+    padding: 30px 40px;
+    width: 90%;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+h1#top {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+#topic, #reply1, #reply2 {
+    background-color: #fce4ec; 
+    width: 100%;
+    min-height: 40px;
+    margin: 8px 0;
+    padding: 10px;
+    border: 2px solid #333333;
+    border-radius: 4px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+textarea#message {
+    background-color: #ffffff;
+    width: 70%;
+    height: 100px;
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid #333333;
+    border-radius: 4px;
+    resize: none;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+button {
+    padding: 6px 18px;
+    border: 2px solid #333333;
+    border-radius: 4px;
+    background-color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}

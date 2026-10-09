@@ -1,0 +1,41 @@
+/* =============================================================================
+   MDT312 Assignment 6 - Custom Stylesheet
+   ============================================================================= */
+
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.register-page {
+    background-color: #eef6ff; 
+}
+
+body.register-page fieldset {
+    background-color: #ffffff; 
+    border: 2px solid #b8d4f0;  
+}
+
+body.login-page {
+    background-color: #f0fdf4; 
+}
+
+body.login-page fieldset {
+    background-color: #ffffff;
+    border: 2px solid #bbf7d0;   
+}
+
+legend {
+    font-size: 1.25rem;  
+    font-weight: bold;   
+    padding: 0 6px;
+}
+
+.required,
+.required-text {
+    color: red;
+}

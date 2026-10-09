@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Register</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<script type="text/javascript" src="register.js"></script>
+	</head>
+	<body class="register-page">
+		<form name="myRegister" id="myRegister" action="login.html">
+			<fieldset>
+				<legend>Register</legend>
+				<span class="required-text">* require</span> <br>
+				<span id="errormsg"></span> <br>
+				First name<span class="required">*</span>: 
+				<input type="text" name="firstname" required>
+				Last name<span class="required">*</span>: 
+				<input type="text" name="lastname" >
+				<br>
+				Gender<span class="required">*</span>: 
+				<input type="radio" name="gender" value="male" >Male
+				<input type="radio" name="gender" value="female" >Female
+				<input type="radio" name="gender" value="other" >Other
+				<br>
+				Birthday<span class="required">*</span>: 
+				<input type="date" name="bday" value="" >
+				<br>
+				Email address<span class="required">*</span>: 
+				<input type="email" name="email" >
+				<br>
+				Username<span class="required">*</span>: 
+				<input type="text" name="username" >
+				<br>
+				Password<span class="required">*</span>: 
+				<input type="password" name="password" required>
+				<br>
+				Retype Password<span class="required">*</span>: 
+				<input type="password" name="password" required>
+				<br>
+				<input type="submit" value="Register" id="registerBtn">
+				<input type="reset" value="Reset" id="resetBtn">
+			</fieldset>
+		</form>
+
+		
+	</body>
+</html>
